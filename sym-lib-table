@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "W25N01GVZEIG_TR")(type "KiCad")(uri "${KIPRJMOD}/W25N01GVZEIG_TR/W25N01GVZEIG_TR.kicad_sym")(options "")(descr ""))
+  (lib (name "BMP280")(type "KiCad")(uri "${KIPRJMOD}/BMP280/BMP280.kicad_sym")(options "")(descr ""))
+  (lib (name "BMI088")(type "KiCad")(uri "${KIPRJMOD}/BMI088/BMI088.kicad_sym")(options "")(descr ""))
+)

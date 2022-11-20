@@ -1,0 +1,95 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "BMP280" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -10.1796 7.63467 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "BMP280" (id 1) (at -10.1693 -10.1693 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "XDCR_BMP280" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "MANUFACTURER RECOMMENDATIONS" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "BMP280" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Bosch" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PART_REV" "1.19" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "BMP280_0_0"
+      (rectangle (start -10.16 -7.62) (end 10.16 7.62)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at 12.7 5.08 180.0) (length 2.54)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 -5.08 180.0) (length 2.54)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 -5.08 180.0) (length 2.54)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 0.0 0) (length 2.54)
+        (name "SDO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 2.54 0) (length 2.54)
+        (name "SDI"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -12.7 -2.54 0) (length 2.54)
+        (name "SCK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 5.08 0) (length 2.54)
+        (name "CSB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 2.54 180.0) (length 2.54)
+        (name "VDDIO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
