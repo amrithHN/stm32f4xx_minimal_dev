@@ -336,7 +336,7 @@
   )
 
   (no_connect (at 163.83 119.38) (uuid 4463fa75-f4cc-4993-80bb-921fc0102a55))
-  (no_connect (at 163.83 124.46) (uuid 4463fa75-f4cc-4993-80bb-921fc0102a55))
+  (no_connect (at 163.83 124.46) (uuid 4463fa75-f4cc-4993-80bb-921fc0102a56))
 
   (wire (pts (xy 165.1 109.22) (xy 166.37 109.22))
     (stroke (width 0) (type default) (color 0 0 0 0))
